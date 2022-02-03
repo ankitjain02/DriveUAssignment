@@ -3,18 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1202A455287A55FD384C23CA /* Pods_DriveUAssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B07B8ACB1B789A6986D4C3 /* Pods_DriveUAssignmentTests.framework */; };
+		83BE5E699D80AEEA80595791 /* Pods_DriveUAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AE13F308AB867DED8C8832 /* Pods_DriveUAssignment.framework */; };
+		86489FDC91F5EA05C38FB541 /* Pods_DriveUAssignment_DriveUAssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD01688C814C8E802A0A32C8 /* Pods_DriveUAssignment_DriveUAssignmentUITests.framework */; };
 		E30EE04327ABE3BD004D4088 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30EE04227ABE3BD004D4088 /* AppDelegate.swift */; };
 		E30EE04527ABE3BD004D4088 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30EE04427ABE3BD004D4088 /* SceneDelegate.swift */; };
-		E30EE04727ABE3BD004D4088 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30EE04627ABE3BD004D4088 /* ViewController.swift */; };
 		E30EE04A27ABE3BD004D4088 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E30EE04827ABE3BD004D4088 /* Main.storyboard */; };
 		E30EE04C27ABE3C1004D4088 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E30EE04B27ABE3C1004D4088 /* Assets.xcassets */; };
 		E30EE04F27ABE3C1004D4088 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E30EE04D27ABE3C1004D4088 /* LaunchScreen.storyboard */; };
 		E30EE05A27ABE3C2004D4088 /* DriveUAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30EE05927ABE3C2004D4088 /* DriveUAssignmentTests.swift */; };
 		E30EE06527ABE3C2004D4088 /* DriveUAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30EE06427ABE3C2004D4088 /* DriveUAssignmentUITests.swift */; };
+		E30EE07C27ABF728004D4088 /* DUServiceBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30EE07B27ABF728004D4088 /* DUServiceBuilder.swift */; };
+		E30EE08027ABF7B3004D4088 /* DUServiceParamConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30EE07F27ABF7B3004D4088 /* DUServiceParamConstants.swift */; };
+		E3265C2227ABFC5C008FE9EF /* DUSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3265C2127ABFC5C008FE9EF /* DUSpinner.swift */; };
+		E3265C2527ABFDB7008FE9EF /* DUBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3265C2427ABFDB7008FE9EF /* DUBaseViewModel.swift */; };
+		E3265C2C27ABFF49008FE9EF /* DUHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3265C2727ABFF48008FE9EF /* DUHomePageViewController.swift */; };
+		E3265C2D27ABFF49008FE9EF /* DUHomePageModelHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3265C2927ABFF49008FE9EF /* DUHomePageModelHub.swift */; };
+		E3265C2E27ABFF49008FE9EF /* DUHomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3265C2B27ABFF49008FE9EF /* DUHomePageViewModel.swift */; };
+		E3265C3527AC111C008FE9EF /* DUUtilitie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3265C3427AC111C008FE9EF /* DUUtilitie.swift */; };
+		E3265C3727AC1224008FE9EF /* DUBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3265C3627AC1224008FE9EF /* DUBaseViewController.swift */; };
+		E3265C4A27AC2545008FE9EF /* CollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3265C3A27AC2544008FE9EF /* CollectionViewDataSource.swift */; };
+		E3265C4B27AC2545008FE9EF /* CarouselModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3265C3C27AC2544008FE9EF /* CarouselModel.swift */; };
+		E3265C4C27AC2545008FE9EF /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3265C3F27AC2544008FE9EF /* UICollectionView.swift */; };
+		E3265C4D27AC2545008FE9EF /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3265C4027AC2544008FE9EF /* UICollectionViewCell.swift */; };
+		E3265C4E27AC2545008FE9EF /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3265C4127AC2544008FE9EF /* UIStoryboard.swift */; };
+		E3265C4F27AC2545008FE9EF /* InfiniteCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3265C4227AC2544008FE9EF /* InfiniteCollectionViewDataSource.swift */; };
+		E3265C5027AC2545008FE9EF /* DUOfferCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3265C4527AC2544008FE9EF /* DUOfferCollectionCell.swift */; };
+		E3265C5127AC2545008FE9EF /* DUOfferCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3265C4627AC2544008FE9EF /* DUOfferCollectionCell.xib */; };
+		E3265C5227AC2545008FE9EF /* LeftedFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3265C4827AC2544008FE9EF /* LeftedFlowLayout.swift */; };
+		E3265C5327AC2545008FE9EF /* CenteredFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3265C4927AC2544008FE9EF /* CenteredFlowLayout.swift */; };
+		E3265C5A27AC25FA008FE9EF /* DUHomeTableViewCellHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3265C5827AC25FA008FE9EF /* DUHomeTableViewCellHub.swift */; };
+		E3265C5B27AC25FA008FE9EF /* DUHomeTableViewCellHub.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3265C5927AC25FA008FE9EF /* DUHomeTableViewCellHub.xib */; };
+		E3265C5F27AC3620008FE9EF /* DUSocialMediaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3265C5D27AC3620008FE9EF /* DUSocialMediaCollectionViewCell.swift */; };
+		E3265C6027AC3620008FE9EF /* DUSocialMediaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3265C5E27AC3620008FE9EF /* DUSocialMediaCollectionViewCell.xib */; };
+		E32D192F27AC539700F92E24 /* DUWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32D192E27AC539700F92E24 /* DUWebViewController.swift */; };
+		E32D193127AC53AB00F92E24 /* DUWebViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32D193027AC53AB00F92E24 /* DUWebViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +62,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A23703C0FF35B49F2CA4846 /* Pods-DriveUAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveUAssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-DriveUAssignmentTests/Pods-DriveUAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		21B07B8ACB1B789A6986D4C3 /* Pods_DriveUAssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DriveUAssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37AE13F308AB867DED8C8832 /* Pods_DriveUAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DriveUAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA47E2CE2E01B79C2A4946A /* Pods-DriveUAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveUAssignment.release.xcconfig"; path = "Target Support Files/Pods-DriveUAssignment/Pods-DriveUAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		7000736DB7BCC354FDB224E0 /* Pods-DriveUAssignment-DriveUAssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveUAssignment-DriveUAssignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-DriveUAssignment-DriveUAssignmentUITests/Pods-DriveUAssignment-DriveUAssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4DE7EF611E385E37DD614DC /* Pods-DriveUAssignment-DriveUAssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveUAssignment-DriveUAssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-DriveUAssignment-DriveUAssignmentUITests/Pods-DriveUAssignment-DriveUAssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C9CD4A5AE9E06553EC423059 /* Pods-DriveUAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveUAssignment.debug.xcconfig"; path = "Target Support Files/Pods-DriveUAssignment/Pods-DriveUAssignment.debug.xcconfig"; sourceTree = "<group>"; };
 		E30EE03F27ABE3BD004D4088 /* DriveUAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DriveUAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E30EE04227ABE3BD004D4088 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E30EE04427ABE3BD004D4088 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E30EE04627ABE3BD004D4088 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E30EE04927ABE3BD004D4088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E30EE04B27ABE3C1004D4088 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E30EE04E27ABE3C1004D4088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +82,33 @@
 		E30EE06027ABE3C2004D4088 /* DriveUAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DriveUAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E30EE06427ABE3C2004D4088 /* DriveUAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveUAssignmentUITests.swift; sourceTree = "<group>"; };
 		E30EE06627ABE3C2004D4088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E30EE07B27ABF728004D4088 /* DUServiceBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DUServiceBuilder.swift; sourceTree = "<group>"; };
+		E30EE07F27ABF7B3004D4088 /* DUServiceParamConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DUServiceParamConstants.swift; sourceTree = "<group>"; };
+		E3265C2127ABFC5C008FE9EF /* DUSpinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DUSpinner.swift; sourceTree = "<group>"; };
+		E3265C2427ABFDB7008FE9EF /* DUBaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DUBaseViewModel.swift; sourceTree = "<group>"; };
+		E3265C2727ABFF48008FE9EF /* DUHomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DUHomePageViewController.swift; sourceTree = "<group>"; };
+		E3265C2927ABFF49008FE9EF /* DUHomePageModelHub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DUHomePageModelHub.swift; sourceTree = "<group>"; };
+		E3265C2B27ABFF49008FE9EF /* DUHomePageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DUHomePageViewModel.swift; sourceTree = "<group>"; };
+		E3265C3427AC111C008FE9EF /* DUUtilitie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DUUtilitie.swift; sourceTree = "<group>"; };
+		E3265C3627AC1224008FE9EF /* DUBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DUBaseViewController.swift; sourceTree = "<group>"; };
+		E3265C3A27AC2544008FE9EF /* CollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewDataSource.swift; sourceTree = "<group>"; };
+		E3265C3C27AC2544008FE9EF /* CarouselModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselModel.swift; sourceTree = "<group>"; };
+		E3265C3F27AC2544008FE9EF /* UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
+		E3265C4027AC2544008FE9EF /* UICollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
+		E3265C4127AC2544008FE9EF /* UIStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
+		E3265C4227AC2544008FE9EF /* InfiniteCollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiniteCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		E3265C4527AC2544008FE9EF /* DUOfferCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DUOfferCollectionCell.swift; sourceTree = "<group>"; };
+		E3265C4627AC2544008FE9EF /* DUOfferCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DUOfferCollectionCell.xib; sourceTree = "<group>"; };
+		E3265C4827AC2544008FE9EF /* LeftedFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftedFlowLayout.swift; sourceTree = "<group>"; };
+		E3265C4927AC2544008FE9EF /* CenteredFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenteredFlowLayout.swift; sourceTree = "<group>"; };
+		E3265C5827AC25FA008FE9EF /* DUHomeTableViewCellHub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DUHomeTableViewCellHub.swift; sourceTree = "<group>"; };
+		E3265C5927AC25FA008FE9EF /* DUHomeTableViewCellHub.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DUHomeTableViewCellHub.xib; sourceTree = "<group>"; };
+		E3265C5D27AC3620008FE9EF /* DUSocialMediaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DUSocialMediaCollectionViewCell.swift; sourceTree = "<group>"; };
+		E3265C5E27AC3620008FE9EF /* DUSocialMediaCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DUSocialMediaCollectionViewCell.xib; sourceTree = "<group>"; };
+		E32D192E27AC539700F92E24 /* DUWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DUWebViewController.swift; sourceTree = "<group>"; };
+		E32D193027AC53AB00F92E24 /* DUWebViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DUWebViewModel.swift; sourceTree = "<group>"; };
+		EE222F3572276F8C68DB3E0B /* Pods-DriveUAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveUAssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-DriveUAssignmentTests/Pods-DriveUAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD01688C814C8E802A0A32C8 /* Pods_DriveUAssignment_DriveUAssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DriveUAssignment_DriveUAssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83BE5E699D80AEEA80595791 /* Pods_DriveUAssignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1202A455287A55FD384C23CA /* Pods_DriveUAssignmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +132,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86489FDC91F5EA05C38FB541 /* Pods_DriveUAssignment_DriveUAssignmentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		201762C3E9275B3E2F136465 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37AE13F308AB867DED8C8832 /* Pods_DriveUAssignment.framework */,
+				FD01688C814C8E802A0A32C8 /* Pods_DriveUAssignment_DriveUAssignmentUITests.framework */,
+				21B07B8ACB1B789A6986D4C3 /* Pods_DriveUAssignmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C7DE7C2688D3D91BD3DA2FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9CD4A5AE9E06553EC423059 /* Pods-DriveUAssignment.debug.xcconfig */,
+				3FA47E2CE2E01B79C2A4946A /* Pods-DriveUAssignment.release.xcconfig */,
+				7000736DB7BCC354FDB224E0 /* Pods-DriveUAssignment-DriveUAssignmentUITests.debug.xcconfig */,
+				A4DE7EF611E385E37DD614DC /* Pods-DriveUAssignment-DriveUAssignmentUITests.release.xcconfig */,
+				EE222F3572276F8C68DB3E0B /* Pods-DriveUAssignmentTests.debug.xcconfig */,
+				1A23703C0FF35B49F2CA4846 /* Pods-DriveUAssignmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E30EE03627ABE3BD004D4088 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +169,8 @@
 				E30EE05827ABE3C2004D4088 /* DriveUAssignmentTests */,
 				E30EE06327ABE3C2004D4088 /* DriveUAssignmentUITests */,
 				E30EE04027ABE3BD004D4088 /* Products */,
+				8C7DE7C2688D3D91BD3DA2FC /* Pods */,
+				201762C3E9275B3E2F136465 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +187,12 @@
 		E30EE04127ABE3BD004D4088 /* DriveUAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				E3265C3827AC2530008FE9EF /* ExternalLibrary */,
+				E3265C2327ABFD94008FE9EF /* BaseFiles */,
+				E30EE07A27ABF15E004D4088 /* Utilities */,
+				E30EE07227ABE439004D4088 /* Assigment */,
 				E30EE04227ABE3BD004D4088 /* AppDelegate.swift */,
 				E30EE04427ABE3BD004D4088 /* SceneDelegate.swift */,
-				E30EE04627ABE3BD004D4088 /* ViewController.swift */,
 				E30EE04827ABE3BD004D4088 /* Main.storyboard */,
 				E30EE04B27ABE3C1004D4088 /* Assets.xcassets */,
 				E30EE04D27ABE3C1004D4088 /* LaunchScreen.storyboard */,
@@ -128,6 +219,155 @@
 			path = DriveUAssignmentUITests;
 			sourceTree = "<group>";
 		};
+		E30EE07227ABE439004D4088 /* Assigment */ = {
+			isa = PBXGroup;
+			children = (
+				E3265C2827ABFF49008FE9EF /* Model */,
+				E3265C2627ABFF48008FE9EF /* View */,
+				E3265C2A27ABFF49008FE9EF /* ViewModel */,
+			);
+			path = Assigment;
+			sourceTree = "<group>";
+		};
+		E30EE07A27ABF15E004D4088 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E30EE07B27ABF728004D4088 /* DUServiceBuilder.swift */,
+				E30EE07F27ABF7B3004D4088 /* DUServiceParamConstants.swift */,
+				E3265C2127ABFC5C008FE9EF /* DUSpinner.swift */,
+				E3265C3427AC111C008FE9EF /* DUUtilitie.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E3265C2327ABFD94008FE9EF /* BaseFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E3265C2427ABFDB7008FE9EF /* DUBaseViewModel.swift */,
+				E3265C3627AC1224008FE9EF /* DUBaseViewController.swift */,
+			);
+			path = BaseFiles;
+			sourceTree = "<group>";
+		};
+		E3265C2627ABFF48008FE9EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3265C5C27AC3606008FE9EF /* CollectionViewCells */,
+				E3265C2F27AC0AAC008FE9EF /* TableViewCells */,
+				E3265C2727ABFF48008FE9EF /* DUHomePageViewController.swift */,
+				E32D192E27AC539700F92E24 /* DUWebViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E3265C2827ABFF49008FE9EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E3265C2927ABFF49008FE9EF /* DUHomePageModelHub.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E3265C2A27ABFF49008FE9EF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E3265C2B27ABFF49008FE9EF /* DUHomePageViewModel.swift */,
+				E32D193027AC53AB00F92E24 /* DUWebViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E3265C2F27AC0AAC008FE9EF /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				E3265C5827AC25FA008FE9EF /* DUHomeTableViewCellHub.swift */,
+				E3265C5927AC25FA008FE9EF /* DUHomeTableViewCellHub.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		E3265C3827AC2530008FE9EF /* ExternalLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				E3265C3927AC2544008FE9EF /* Carousel */,
+			);
+			path = ExternalLibrary;
+			sourceTree = "<group>";
+		};
+		E3265C3927AC2544008FE9EF /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				E3265C3B27AC2544008FE9EF /* Models */,
+				E3265C3D27AC2544008FE9EF /* Extensions */,
+				E3265C4327AC2544008FE9EF /* Reusable */,
+				E3265C3A27AC2544008FE9EF /* CollectionViewDataSource.swift */,
+				E3265C4227AC2544008FE9EF /* InfiniteCollectionViewDataSource.swift */,
+			);
+			path = Carousel;
+			sourceTree = "<group>";
+		};
+		E3265C3B27AC2544008FE9EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E3265C3C27AC2544008FE9EF /* CarouselModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E3265C3D27AC2544008FE9EF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E3265C3E27AC2544008FE9EF /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E3265C3E27AC2544008FE9EF /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				E3265C3F27AC2544008FE9EF /* UICollectionView.swift */,
+				E3265C4027AC2544008FE9EF /* UICollectionViewCell.swift */,
+				E3265C4127AC2544008FE9EF /* UIStoryboard.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		E3265C4327AC2544008FE9EF /* Reusable */ = {
+			isa = PBXGroup;
+			children = (
+				E3265C4427AC2544008FE9EF /* Cells */,
+				E3265C4727AC2544008FE9EF /* FlowLayouts */,
+			);
+			path = Reusable;
+			sourceTree = "<group>";
+		};
+		E3265C4427AC2544008FE9EF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E3265C4527AC2544008FE9EF /* DUOfferCollectionCell.swift */,
+				E3265C4627AC2544008FE9EF /* DUOfferCollectionCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E3265C4727AC2544008FE9EF /* FlowLayouts */ = {
+			isa = PBXGroup;
+			children = (
+				E3265C4827AC2544008FE9EF /* LeftedFlowLayout.swift */,
+				E3265C4927AC2544008FE9EF /* CenteredFlowLayout.swift */,
+			);
+			path = FlowLayouts;
+			sourceTree = "<group>";
+		};
+		E3265C5C27AC3606008FE9EF /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				E3265C5D27AC3620008FE9EF /* DUSocialMediaCollectionViewCell.swift */,
+				E3265C5E27AC3620008FE9EF /* DUSocialMediaCollectionViewCell.xib */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +375,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E30EE06927ABE3C2004D4088 /* Build configuration list for PBXNativeTarget "DriveUAssignment" */;
 			buildPhases = (
+				9B198B70D7C7C564CE4E7999 /* [CP] Check Pods Manifest.lock */,
 				E30EE03B27ABE3BD004D4088 /* Sources */,
 				E30EE03C27ABE3BD004D4088 /* Frameworks */,
 				E30EE03D27ABE3BD004D4088 /* Resources */,
+				2B7797A777DDD4D51C6447AA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +394,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E30EE06C27ABE3C2004D4088 /* Build configuration list for PBXNativeTarget "DriveUAssignmentTests" */;
 			buildPhases = (
+				37C5F4CA05C1D205C127BBF7 /* [CP] Check Pods Manifest.lock */,
 				E30EE05127ABE3C2004D4088 /* Sources */,
 				E30EE05227ABE3C2004D4088 /* Frameworks */,
 				E30EE05327ABE3C2004D4088 /* Resources */,
@@ -170,9 +413,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E30EE06F27ABE3C2004D4088 /* Build configuration list for PBXNativeTarget "DriveUAssignmentUITests" */;
 			buildPhases = (
+				20CAF1B61C1ACC9C309A0F7C /* [CP] Check Pods Manifest.lock */,
 				E30EE05C27ABE3C2004D4088 /* Sources */,
 				E30EE05D27ABE3C2004D4088 /* Frameworks */,
 				E30EE05E27ABE3C2004D4088 /* Resources */,
+				F9F7ACBF5F41345B7BFD5CCA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +478,10 @@
 			files = (
 				E30EE04F27ABE3C1004D4088 /* LaunchScreen.storyboard in Resources */,
 				E30EE04C27ABE3C1004D4088 /* Assets.xcassets in Resources */,
+				E3265C5B27AC25FA008FE9EF /* DUHomeTableViewCellHub.xib in Resources */,
 				E30EE04A27ABE3BD004D4088 /* Main.storyboard in Resources */,
+				E3265C5127AC2545008FE9EF /* DUOfferCollectionCell.xib in Resources */,
+				E3265C6027AC3620008FE9EF /* DUSocialMediaCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +501,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		20CAF1B61C1ACC9C309A0F7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DriveUAssignment-DriveUAssignmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B7797A777DDD4D51C6447AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DriveUAssignment/Pods-DriveUAssignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DriveUAssignment/Pods-DriveUAssignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DriveUAssignment/Pods-DriveUAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37C5F4CA05C1D205C127BBF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DriveUAssignmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B198B70D7C7C564CE4E7999 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DriveUAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9F7ACBF5F41345B7BFD5CCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DriveUAssignment-DriveUAssignmentUITests/Pods-DriveUAssignment-DriveUAssignmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DriveUAssignment-DriveUAssignmentUITests/Pods-DriveUAssignment-DriveUAssignmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DriveUAssignment-DriveUAssignmentUITests/Pods-DriveUAssignment-DriveUAssignmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E30EE03B27ABE3BD004D4088 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E30EE04727ABE3BD004D4088 /* ViewController.swift in Sources */,
+				E3265C5027AC2545008FE9EF /* DUOfferCollectionCell.swift in Sources */,
+				E3265C4C27AC2545008FE9EF /* UICollectionView.swift in Sources */,
+				E3265C3527AC111C008FE9EF /* DUUtilitie.swift in Sources */,
+				E3265C2D27ABFF49008FE9EF /* DUHomePageModelHub.swift in Sources */,
+				E32D192F27AC539700F92E24 /* DUWebViewController.swift in Sources */,
+				E3265C2E27ABFF49008FE9EF /* DUHomePageViewModel.swift in Sources */,
+				E30EE08027ABF7B3004D4088 /* DUServiceParamConstants.swift in Sources */,
+				E3265C2227ABFC5C008FE9EF /* DUSpinner.swift in Sources */,
+				E3265C5227AC2545008FE9EF /* LeftedFlowLayout.swift in Sources */,
+				E32D193127AC53AB00F92E24 /* DUWebViewModel.swift in Sources */,
+				E3265C2527ABFDB7008FE9EF /* DUBaseViewModel.swift in Sources */,
+				E3265C2C27ABFF49008FE9EF /* DUHomePageViewController.swift in Sources */,
+				E3265C4A27AC2545008FE9EF /* CollectionViewDataSource.swift in Sources */,
+				E3265C4D27AC2545008FE9EF /* UICollectionViewCell.swift in Sources */,
+				E3265C4F27AC2545008FE9EF /* InfiniteCollectionViewDataSource.swift in Sources */,
+				E3265C3727AC1224008FE9EF /* DUBaseViewController.swift in Sources */,
+				E3265C4E27AC2545008FE9EF /* UIStoryboard.swift in Sources */,
+				E3265C5F27AC3620008FE9EF /* DUSocialMediaCollectionViewCell.swift in Sources */,
+				E3265C5327AC2545008FE9EF /* CenteredFlowLayout.swift in Sources */,
 				E30EE04327ABE3BD004D4088 /* AppDelegate.swift in Sources */,
+				E30EE07C27ABF728004D4088 /* DUServiceBuilder.swift in Sources */,
+				E3265C5A27AC25FA008FE9EF /* DUHomeTableViewCellHub.swift in Sources */,
 				E30EE04527ABE3BD004D4088 /* SceneDelegate.swift in Sources */,
+				E3265C4B27AC2545008FE9EF /* CarouselModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +805,7 @@
 		};
 		E30EE06A27ABE3C2004D4088 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9CD4A5AE9E06553EC423059 /* Pods-DriveUAssignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +825,7 @@
 		};
 		E30EE06B27ABE3C2004D4088 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FA47E2CE2E01B79C2A4946A /* Pods-DriveUAssignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +845,7 @@
 		};
 		E30EE06D27ABE3C2004D4088 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE222F3572276F8C68DB3E0B /* Pods-DriveUAssignmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +868,7 @@
 		};
 		E30EE06E27ABE3C2004D4088 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A23703C0FF35B49F2CA4846 /* Pods-DriveUAssignmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +891,7 @@
 		};
 		E30EE07027ABE3C2004D4088 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7000736DB7BCC354FDB224E0 /* Pods-DriveUAssignment-DriveUAssignmentUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +912,7 @@
 		};
 		E30EE07127ABE3C2004D4088 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4DE7EF611E385E37DD614DC /* Pods-DriveUAssignment-DriveUAssignmentUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
